@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: import.meta.env.VITE_API_URL || 'http://187.127.134.36:5000/api',
+    baseURL: import.meta.env.VITE_API_URL || 'https://api.mhmatka.space/api',
 });
 
 api.interceptors.request.use(
